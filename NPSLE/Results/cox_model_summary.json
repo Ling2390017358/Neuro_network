@@ -1,0 +1,19 @@
+{
+  "c_index": 0.7846739731923266,
+  "n": 8802,
+  "events": 590,
+  "variables": [
+    "C3_slope",
+    "CRP_slope",
+    "Granulocyte_slope",
+    "C3_baseline",
+    "CRP_baseline",
+    "Granulocyte_baseline",
+    "CysC_baseline",
+    "SLEDAI_baseline",
+    "LAC_NLR_baseline",
+    "UA_baseline",
+    "eGFR_baseline",
+    "APTT_baseline"
+  ]
+}

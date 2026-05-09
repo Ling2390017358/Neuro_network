@@ -1,0 +1,6 @@
+,0
+apparent_auc,0.9937971358459818
+bootstrap_mean_auc,0.9136382467009986
+optimism_corrected_auc,0.9136382467009986
+bootstrap_auc_95CI,"(np.float64(0.9014148476671976), np.float64(0.9274446323457163))"
+mean_brier,0.06936937010467253

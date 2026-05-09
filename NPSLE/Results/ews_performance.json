@@ -1,0 +1,59 @@
+{
+  "auc": 0.8449171704549947,
+  "n": 9420,
+  "events": 139,
+  "best_cutoff": {
+    "auc": 0.8449171704549947,
+    "average_precision": 0.07250409349475813,
+    "accuracy": 0.7851380042462845,
+    "sensitivity": 0.762589928057554,
+    "specificity": 0.7854757030492404,
+    "precision": 0.050548402479732954,
+    "f1": 0.09481216457960644,
+    "brier": 0.029811072376142757,
+    "threshold": 0.18518518518518517,
+    "tp": 106,
+    "fp": 1991,
+    "tn": 7290,
+    "fn": 33,
+    "score_cutoff": 5,
+    "youden": 0.5480656311067944
+  },
+  "risk_groups": [
+    {
+      "risk_group": "low",
+      "n": 7846,
+      "events": 52,
+      "mean_score": 1.6052765740504715,
+      "event_rate_percent": 0.662758093295947
+    },
+    {
+      "risk_group": "moderate",
+      "n": 1312,
+      "events": 62,
+      "mean_score": 7.416158536585366,
+      "event_rate_percent": 4.725609756097561
+    },
+    {
+      "risk_group": "high",
+      "n": 239,
+      "events": 22,
+      "mean_score": 12.217573221757322,
+      "event_rate_percent": 9.205020920502092
+    },
+    {
+      "risk_group": "very_high",
+      "n": 23,
+      "events": 3,
+      "mean_score": 17.043478260869566,
+      "event_rate_percent": 13.043478260869565
+    }
+  ],
+  "prediction_outputs": {
+    "predictions": "ews_predictions.csv",
+    "roc": "ews_roc_curve.csv",
+    "precision_recall": "ews_precision_recall_curve.csv",
+    "calibration": "ews_calibration_curve.csv",
+    "decision_curve": "ews_decision_curve.csv"
+  }
+}

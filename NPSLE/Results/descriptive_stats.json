@@ -1,0 +1,8 @@
+{
+  "patient_label_counts": {
+    "non_npsle": 8803,
+    "npsle": 617
+  },
+  "visits": 79655,
+  "patients": 9420
+}

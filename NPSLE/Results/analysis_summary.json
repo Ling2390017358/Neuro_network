@@ -1,0 +1,28 @@
+{
+  "data_source": "data/SLEmatrix_merged.csv",
+  "run_started": "2026-05-05 06:05:41",
+  "seed": 20260504,
+  "rows_visits": 79655,
+  "patients": 9420,
+  "visit_level_npsle_events_acr_definition": 907,
+  "patient_level_npsle_events_acr_definition": 617,
+  "npsle_label_columns": [
+    "acr_神经_癫痫",
+    "acr_神经_精神",
+    "acr_神经_脊髓炎",
+    "acr_神经_脑血管"
+  ],
+  "sledai_neuro_columns_excluded_from_predictors": [
+    "sledai_器质性脑病",
+    "sledai_狼疮头痛",
+    "sledai_癫痫",
+    "sledai_精神症状",
+    "sledai_脑血管意外",
+    "sledai_视觉障碍",
+    "sledai_颅神经病变"
+  ],
+  "candidate_features_after_missing_filter": 46,
+  "date_min": "2008-08-17 00:00:00",
+  "date_max": "2025-02-14 00:00:00",
+  "runtime_seconds": 593.9
+}

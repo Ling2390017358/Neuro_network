@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(pip install *)",
+      "Bash(python3 -m venv /tmp/docx_venv)",
+      "Bash(/tmp/docx_venv/bin/pip install *)",
+      "Bash(/tmp/docx_venv/bin/python3 -c ' *)",
+      "Bash(/tmp/docx_venv/bin/python3 *)",
+      "Bash(python3 *)",
+      "Bash(awk '{print $2, $3\"% CPU, \" $4\"% MEM, \" $6/1024\" MB\"}')",
+      "Bash(awk '{print $2, $3\"% CPU, \" $6/1024\" MB, ELAPSED:\", systime\\(\\)-$9\"s\"}')",
+      "Bash(awk '{print $NF, $3\"%CPU, \" $6/1024\"MB\"}')",
+      "Bash(awk '{print $NF, $3\"%CPU, \" $6/1024\"MB, Elapsed: \" $10}')",
+      "Bash(awk '{print \"PID:\", $2, \"CPU:\", $3\"%\", \"RSS:\", $6/1024\"MB\", \"ET:\", $10}')",
+      "Bash(kill 2883342)",
+      "Bash(awk '{print \"PID:\", $2}')",
+      "Bash(awk '{print $2, $3\"%CPU, \" $6/1024\"MB\"}')",
+      "Bash(awk '{print $2, $3\"% CPU, MEM:\", $6/1024\"MB\"}')"
+    ]
+  }
+}
